@@ -10,24 +10,30 @@ Schon bei den letzten Aufgaben haben wir genutzt, dass alle geometrischen Formen
 
 # Die Grafikklassen
 
-Nutze den `Erbt von Grafikklasse` Block, um eigene Klassen zu erstellen, die die geometrischen Formen individualisieren.
+Nutze den "`Erbt von Grafikklasse`"-Block, um eigene Klassen zu erstellen, die die geometrischen Formen individualisieren.
 
-Die `act()` Methode von Objekten der Klasse Actor (und ihren Unterklassen), wird immer wieder ausgeführt, wenn man auf Play drückt. Was man hierin programmiert, wird also dauernd wiederholt.
+Die `act()` Methode von Objekten der Klasse Actor (und ihren Unterklassen), wird immer wieder ausgeführt, wenn man auf Play drückt. Was man hierin programmiert, wird also dauernd wiederholt. Die Methode eignet sich für Bewegungen etc.
 
-*Beispiel:* Wenn eine Unterklasse von `Kreis` die `act()`-Methode überschreibt,  
+*Beispiel:* Wenn eine Unterklasse von `Circle` die `act()`-Methode so überschreibt, dass dem Objekt eine zufällige neue Farbe zugewiesen wird, wird dieser Kreis dann andauernd seine Farbe zufällig ändern.
+
+(Siehe Bild auf Artemis)
+
 
 # Aufgaben
 
-Erstelle eine wildes durcheinander aus geometrischen Formen, die sich mehr oder weniger zufällig im Raum bewegen. Nutze zum Erstellen der Objekte die `main()`-Methode. Achte darauf, dass neue Java-Dateien für neue Klassen immer mit .java enden!
+Erstelle eine wildes Durcheinander aus geometrischen Formen, die sich mehr oder weniger zufällig im Raum bewegen. Nutze zum Erstellen der Objekte die `main()`-Methode (hier findest du schon eine kleine Vorlage für Discokugeln). Achte darauf, dass neue Java-Dateien für neue Klassen immer mit .java enden!
 
-Folgende Einschränkungen soll das Durcheinander erfüllen:
-- Kreise dürfen sich nie nach rechts (auch nicht diagonal nach rechts!) bewegen. Nach oben, unten, links, diagonal nach links-oben/-unten ist erlaubt.
-- Alle Grafik-Objekte müssen andauernd ihre Farbe wechseln (entweder zufällig oder in einer festen Reihenfolge).
-- Linien dürfen ihre Position nicht ändern, sondern dürfen sich nur um die eigene Achse drehen.
+Folgende Basics soll das Durcheinander mindestens erfüllen:
+- Alle Grafik-Objekte starten in der Mitte der Welt (x=500,y=500). Die Position wird über Konstruktor-Parameter am Anfang festgelegt und über den super()-Konstruktor Aufruf weitergegeben.
+- `Discokugeln` sind Kreise und verändern dauernd ihre Farbe. Die Farben können zufällig sein oder einem System folgen. Ob sie sich bewegen, entscheidest du.
+- `Leuchtstäbe` sind Linien und rotieren dauerhaft. Leuchstäbe fliegen und dürfen sich daher nur in der oberen Hälfte der Welt aufhalten und bewegen.
 
-*Tipp:* Versuche möglichst viel Code wieder zu verwenden. Die Vererbungshierarchie darf auch mehrstufig sein. Eine Unterklasse kann also auch weitere Unterklassen haben. 
+
+*Tipp:* Versuche möglichst viel Code wieder zu verwenden. Die Vererbungshierarchie darf auch mehrstufig sein. Eine Unterklasse kann also auch weitere Unterklassen haben.
 
 
 # Klassendiagramm
 
-*Kommt noch*
+Der Übersichtlichkeit halber, werden bei bereits vorhandenen Grafikklassen nicht alle Elemente dargestellt.
+
+(Nur auf Artemis)
