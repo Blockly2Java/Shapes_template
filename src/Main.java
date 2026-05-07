@@ -14,6 +14,15 @@ public class Main {
      * gestartet, wenn du auf 'Play' drückst.
      */
     public static void main() {
+        World world1 = new World(1000, 1000);
+
+        for (int i = 0; i < 50; i++) {
+            DiscoKugel disco = new DiscoKugel(500, 500);
+        }
     }
 
 }
+
+
+// main()-Methode starten
+Main.main();

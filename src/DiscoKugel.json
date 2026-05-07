@@ -1,0 +1,36 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "defconstructor",
+        "id": "VVOqoXQAZ)O7*I7QDm6T",
+        "x": 101,
+        "y": 134,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"double x\" varid=\".}N06Q/.O#5iYsymTTs6\"></arg><arg name=\"double y\" varid=\"uwcta9n4Mh=q_)@cNS-@\"></arg></mutation>"
+      },
+      {
+        "type": "java_method_noreturn",
+        "id": "2JuwI+oNpYu?r4dm_98h",
+        "x": 106,
+        "y": 271,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
+        "fields": {
+          "NAME": "act"
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "double x",
+      "id": ".}N06Q/.O#5iYsymTTs6",
+      "type": "param"
+    },
+    {
+      "name": "double y",
+      "id": "uwcta9n4Mh=q_)@cNS-@",
+      "type": "param"
+    }
+  ]
+}
