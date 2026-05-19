@@ -1,15 +1,13 @@
-
 @startuml
 !include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
 hide circle
-hide empty members
-hide empty methods
 skinparam {
     classAttributeIconSize 0
     packageStyle rectangle
     linetype ortho
     backgroundColor transparent
 }  
+
 
 
 
