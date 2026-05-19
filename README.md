@@ -37,3 +37,8 @@ Folgende Basics soll das Durcheinander mindestens erfüllen:
 Der Übersichtlichkeit halber, werden bei bereits vorhandenen Grafikklassen nicht alle Elemente dargestellt.
 
 (Nur auf Artemis)
+
+![ARCHITECTURE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Blockly2Java/Shapes_template/refs/heads/main/classes.puml)
+
+
+
