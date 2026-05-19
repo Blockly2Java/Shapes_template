@@ -1,5 +1,7 @@
 
 @startuml
+!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+
 hide circle
 hide empty members
 skinparam {
@@ -11,7 +13,6 @@ skinparam {
   StateBackgroundColor transparent
 }  
 
-!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
 
 
 
