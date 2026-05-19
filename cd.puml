@@ -3,6 +3,7 @@
 !include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
 hide circle
 hide empty members
+hide empty methods
 skinparam {
     classAttributeIconSize 0
     packageStyle rectangle
@@ -15,16 +16,12 @@ skinparam {
 
 
 
-skinparam classAttributeIconSize 0
-hide circle
-hide empty methods
-
-DiscoKugel --|> Circle
-Leuchtstab --|> Line
-Circle --|> Shapes
-Line --|> Shapes
-Rectangle --|> Shapes
-xxx --|> Shapes
+DiscoKugel -u-|> Circle
+Leuchtstab -u-|> Line
+Circle -u-|> Shapes
+Line -u-|> Shapes
+Rectangle -u-|> Shapes
+xxx -u-|> Shapes
 
 
 class Leuchtstab {
