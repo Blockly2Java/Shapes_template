@@ -1,0 +1,33 @@
+
+@startuml
+
+skinparam classAttributeIconSize 0
+hide circle
+hide empty methods
+
+DiscoKugel --|> Circle
+Leuchtstab --|> Line
+Circle --|> Shapes
+Line --|> Shapes
+Rectangle --|> Shapes
+xxx --|> Shapes
+
+
+class Leuchtstab {
+    + Leuchtstab(double x, double y)
+    + void act()
+}
+
+class DiscoKugel {
+    + DiscoKugel(double x, double y)
+    + void act()
+}
+
+class Shapes {
+    + void act()
+    + void move(double dx, double dy)
+    + void setFillColor(Color color)
+    + void rotate(double degrees)
+    + void scale(double factor)
+}
+@enduml
