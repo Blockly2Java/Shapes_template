@@ -8,7 +8,7 @@ skinparam {
     packageStyle rectangle
     linetype ortho
   ' Pink background just to have easy detection if transparency works.
-  backgroundColor #pink 
+  backgroundColor #none 
   StateBackgroundColor transparent
 }  
 
