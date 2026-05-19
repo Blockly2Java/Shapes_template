@@ -36,4 +36,4 @@ Folgende Basics soll das Durcheinander mindestens erfüllen:
 
 Der Übersichtlichkeit halber, werden bei bereits vorhandenen Grafikklassen nicht alle Elemente dargestellt.
 
-![ARCHITECTURE](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/Blockly2Java/Shapes_template/refs/heads/main/classes.puml)
+![ARCHITECTURE](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/Blockly2Java/Shapes_template/refs/heads/main/cd.puml)
