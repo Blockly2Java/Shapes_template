@@ -1,10 +1,15 @@
 
 @startuml
-skinparam classAttributeIconSize 0
 hide circle
 hide empty members
-skinparam linetype ortho
-skinparam packageStyle rectangle
+skinparam {
+    classAttributeIconSize 0
+    packageStyle rectangle
+    linetype ortho
+  ' Pink background just to have easy detection if transparency works.
+  backgroundColor #pink 
+  StateBackgroundColor transparent
+}  
 
 !include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
 
