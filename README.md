@@ -41,4 +41,30 @@ Der Übersichtlichkeit halber, werden bei bereits vorhandenen Grafikklassen nich
 ![ARCHITECTURE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Blockly2Java/Shapes_template/refs/heads/main/classes.puml)
 
 
+```mermaid
+classDiagram
+    Shapes <|-- Circle
+    Shapes <|-- Line
+    Shapes <|-- Rectangle
+    Shapes <|-- xxx
+    Circle <|-- DiscoKugel
+    Line <|-- Leuchtstab
 
+    class Shapes {
+        +act()
+        +move(double dx, double dy)
+        +setFillColor(Color color)
+        +rotate(double degrees)
+        +scale(double factor)
+    }
+
+    class DiscoKugel {
+        +DiscoKugel(double x, double y)
+        +act()
+    }
+
+    class Leuchtstab {
+        +Leuchtstab(double x, double y)
+        +act()
+    }
+```
