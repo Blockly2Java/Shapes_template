@@ -38,33 +38,13 @@ Der Übersichtlichkeit halber, werden bei bereits vorhandenen Grafikklassen nich
 
 (Nur auf Artemis)
 
+
+### PlantUML with Wrapper
 ![ARCHITECTURE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Blockly2Java/Shapes_template/refs/heads/main/classes.puml)
 
 
-```mermaid
-classDiagram
-    Shapes <|-- Circle
-    Shapes <|-- Line
-    Shapes <|-- Rectangle
-    Shapes <|-- xxx
-    Circle <|-- DiscoKugel
-    Line <|-- Leuchtstab
 
-    class Shapes {
-        +act()
-        +move(double dx, double dy)
-        +setFillColor(Color color)
-        +rotate(double degrees)
-        +scale(double factor)
-    }
+### Mermaid UML with Wrapper
 
-    class DiscoKugel {
-        +DiscoKugel(double x, double y)
-        +act()
-    }
 
-    class Leuchtstab {
-        +Leuchtstab(double x, double y)
-        +act()
-    }
-```
+![Mermaid UML](https://mermaid.ink/img/eNqVkj1vgzAQhv8KuilVSUTIBwR1S9Sl7dJuFYtjX8CqsSPbVKRp_nsNJAHaLL3B8r3ne_z64whUMYQEqCDGbDjJNClS6bl4y8kejffwPR57a66pwL_6M5c31FeklsjsVkNVVa3YEltxww1VT2WGoq3V1DMfS5pbY8k2lW2t8XlBHlutjntC7eiulxfqE0dMlVu3C6t87zI99BcZtI9ciLUSSo-a0aP12F-jlSW2Q2GmEc0AQom41nfOx7X_NHTdnXPgvJMvkM7uwG3viL_I3T0NyJ38DzL4kGnOILG6RB8K1AWpU2jIKdgcC0whcVNG9EcKqax79kS-K1Vc2rQqsxySHRHGZeWeuTs8f6_rEpQM9VqV0kISTsOGAckRKpeGs8kqXCyCKJguo3nswwGScTwJXISzaRwG0WyxXJ58-Go2DSZxNF_1wwdk3D3Fy_l_K7njGZx-AAy35Fg)
