@@ -1,5 +1,16 @@
 
 @startuml
+skinparam classAttributeIconSize 0
+hide circle
+hide empty members
+skinparam linetype ortho
+skinparam packageStyle rectangle
+
+!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+
+
+
+
 
 skinparam classAttributeIconSize 0
 hide circle
